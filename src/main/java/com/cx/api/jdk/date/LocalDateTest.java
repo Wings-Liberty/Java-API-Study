@@ -1,4 +1,4 @@
-package com.cx.test.jdk.date;
+package com.cx.api.jdk.date;
 
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +14,6 @@ public class LocalDateTest {
         DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy-MM-dd+HH:mm:ss");
         System.out.println(LocalDateTime.of(LocalDate.now(), LocalTime.MIN).format(f));
         System.out.println(LocalDateTime.of(LocalDate.now(), LocalTime.MAX).format(f));
-
     }
 
 }

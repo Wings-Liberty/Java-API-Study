@@ -1,4 +1,4 @@
-package com.cx.test.hutool;
+package com.cx.api.hutool;
 
 import cn.hutool.core.lang.func.Func;
 import cn.hutool.core.util.ObjectUtil;

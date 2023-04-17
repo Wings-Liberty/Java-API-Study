@@ -14,12 +14,12 @@
     <remote-repository>
       <option name="id" value="6cloud" />
       <option name="name" value="6cloud" />
-      <option name="url" value="http://172.24.23.99:8081/nexus/content/groups/public/" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="6cloud" />
       <option name="name" value="6cloud" />
-      <option name="url" value="https://maven.aliyun.com/repository/public" />
+      <option name="url" value="http://172.24.23.99:8081/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="nexus-osc" />

@@ -1,4 +1,4 @@
-package com.cx.test.jdk.collection;
+package com.cx.api.jdk.collection;
 
 import com.google.common.collect.Sets;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.cx.test.hutool;
+package com.cx.api.hutool;
 
 import cn.hutool.core.util.BooleanUtil;
 import org.junit.jupiter.api.Test;

@@ -1,15 +1,9 @@
-package com.cx.test.jdk;
-import com.cx.bean.Dog;
+package com.cx.api.jdk;
 
-import cn.hutool.json.JSON;
-import cn.hutool.json.JSONObject;
-import cn.hutool.json.JSONUtil;
-import com.cx.bean.User;
 import com.google.common.collect.Maps;
 import org.junit.jupiter.api.Test;
 
 import java.util.Map;
-import java.util.function.Function;
 
 public class SimpleTest {
 

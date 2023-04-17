@@ -1,4 +1,4 @@
-package com.cx.test.guava.collection;
+package com.cx.api.guava.collection;
 
 import cn.hutool.core.lang.Pair;
 import com.google.common.collect.*;

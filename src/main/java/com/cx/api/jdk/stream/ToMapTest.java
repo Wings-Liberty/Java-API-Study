@@ -1,4 +1,4 @@
-package com.cx.test.jdk.stream;
+package com.cx.api.jdk.stream;
 
 import com.cx.bean.Dog;
 import com.google.common.collect.Lists;

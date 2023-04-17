@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3a136d9-dc64-4fc2-887a-3ff0cb2c1a8b" name="Changes" comment="" />
+    <list default="true" id="a3a136d9-dc64-4fc2-887a-3ff0cb2c1a8b" name="Changes" comment="初次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/guava/collection/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/guava/collection/CollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/hutool/BooleanUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/hutool/BooleanUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/hutool/ValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/hutool/ValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/hutool/XmlUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/hutool/XmlUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/hutool/XmlUtilTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/hutool/XmlUtilTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/ClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/CompletableFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/CompletableFutureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/SetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/collection/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/collection/CollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/date/LocalDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/date/LocalDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/stream/FlatMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/stream/FlatMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/test/jdk/stream/ToMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/api/jdk/stream/ToMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cx/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cx/test/jdk/OptionalTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,20 +69,20 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/workspace/IDEA-workspace/study/Java-API-Study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/IDEA-workspace/study/Java-API-Study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\IDEA-workspace\Study\Guava-Study\src\test\java\com\cx\test" />
@@ -69,97 +90,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cx.test.hutool" />
     </key>
-  </component>
-  <component name="RunManager" selected="JUnit.SimpleTest.test">
-    <configuration name="CollectionTest.testVisitHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Guava-Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cx.test.jdk.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cx.test.jdk.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.cx.test.jdk.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="testVisitHashSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionTest.testVisitLinkedHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Guava-Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cx.test.jdk.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cx.test.jdk.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.cx.test.jdk.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="testVisitLinkedHashSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocalDateTest.getTodayTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Guava-Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cx.test.jdk.date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cx.test.jdk.date" />
-      <option name="MAIN_CLASS_NAME" value="com.cx.test.jdk.date.LocalDateTest" />
-      <option name="METHOD_NAME" value="getTodayTime" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetTest.printTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Guava-Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cx.test.jdk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cx.test.jdk" />
-      <option name="MAIN_CLASS_NAME" value="com.cx.test.jdk.SetTest" />
-      <option name="METHOD_NAME" value="printTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Guava-Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cx.test.jdk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cx.test.jdk" />
-      <option name="MAIN_CLASS_NAME" value="com.cx.test.jdk.SimpleTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.SimpleTest.test" />
-        <item itemvalue="JUnit.LocalDateTest.getTodayTime" />
-        <item itemvalue="JUnit.CollectionTest.testVisitLinkedHashSet" />
-        <item itemvalue="JUnit.CollectionTest.testVisitHashSet" />
-        <item itemvalue="JUnit.SetTest.printTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
@@ -198,27 +128,50 @@
       <workItem from="1679918093271" duration="20000" />
       <workItem from="1680513129934" duration="94000" />
       <workItem from="1680921763423" duration="130000" />
-      <workItem from="1681739227337" duration="446000" />
+      <workItem from="1681739227337" duration="1060000" />
     </task>
+    <task id="LOCAL-00001" summary="初次提交">
+      <created>1681739850455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681739850455</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cx/test/guava/collection/CollectionTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/cx/api/guava/collection/CollectionTest.java</url>
           <line>15</line>
-          <properties class="com.cx.test.guava.collection.CollectionTest" method="testMultiSet">
+          <properties class="com.cx.api.guava.collection.CollectionTest" method="testMultiSet">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cx/test/jdk/stream/ToMapTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/cx/api/jdk/stream/ToMapTest.java</url>
           <line>20</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -226,7 +179,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cx/test/hutool/XmlUtilTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/cx/api/hutool/XmlUtilTest2.java</url>
           <line>35</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>

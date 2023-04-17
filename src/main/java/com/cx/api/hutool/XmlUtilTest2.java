@@ -1,14 +1,11 @@
-package com.cx.test.hutool;
+package com.cx.api.hutool;
 
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.XmlUtil;
 import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class XmlUtilTest2 {

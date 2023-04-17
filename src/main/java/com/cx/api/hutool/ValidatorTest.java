@@ -1,4 +1,4 @@
-package com.cx.test.hutool;
+package com.cx.api.hutool;
 
 import cn.hutool.core.lang.Validator;
 import org.junit.jupiter.api.Test;
