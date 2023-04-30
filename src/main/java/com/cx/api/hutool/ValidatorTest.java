@@ -10,4 +10,9 @@ public class ValidatorTest {
         System.out.println(Validator.isMobile("13939103335"));
     }
 
+    @Test
+    public void testNumber() {
+        System.out.println(Validator.isNumber("9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"));
+    }
+
 }
