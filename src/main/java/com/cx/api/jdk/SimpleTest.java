@@ -12,9 +12,11 @@ public class SimpleTest {
 
     @Test
     public void test(){
-        List<String> list = Lists.newArrayList("123", "456", "678");
-        System.out.println(list.contains("345"));
-        System.out.println(list.contains("678"));
+        Map<Integer, String> map = Maps.newHashMap();
+        map.put(1, "123");
+        System.out.println(map.get(1));
+        System.out.println(map.get(2));
+        System.out.println(map.getOrDefault(3, ""));
     }
 
 }
