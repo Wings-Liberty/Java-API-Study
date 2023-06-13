@@ -3,7 +3,6 @@ package com.cx.api.jdk.io;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
@@ -15,6 +14,10 @@ import java.util.zip.ZipInputStream;
 
 public class InputStreamTest {
 
+    /**
+     * 从文件里读取二进制数据
+     * @throws IOException
+     */
     @Test
     public void testReadFile() throws IOException {
         // 如果指定的文件不存在就会抛异常。输入输出流和 File 文件不同，File 是抽象的，可以不对应到磁盘文件
@@ -30,6 +33,10 @@ public class InputStreamTest {
         input.close();
     }
 
+    /**
+     * 从 zip 文件里读取二进制数据
+     * @throws IOException
+     */
     @Test
     public void testReadZip() throws IOException {
         ZipInputStream zipInput = new ZipInputStream(Files.newInputStream(Paths.get("D:\\tmp\\tmp.zip")), Charset.forName("GBK"));
@@ -44,6 +51,21 @@ public class InputStreamTest {
                 System.out.print(data);
             }
         }
+    }
+
+    /**
+     * 从文件里读取二进制数据
+     * @throws IOException
+     */
+    @Test
+    public void testReadCharFile() throws IOException {
+        // 如果指定的文件不存在就会抛异常。输入输出流和 File 文件不同，File 是抽象的，可以不对应到磁盘文件
+        InputStream input = new FileInputStream("src/readme.txt");
+        byte[] buffer = new byte[1024];
+        input.read(buffer);
+        String content = new String(buffer, StandardCharsets.UTF_8);
+        System.out.println(content);
+        input.close();
     }
 
 }

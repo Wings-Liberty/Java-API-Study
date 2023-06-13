@@ -3,11 +3,13 @@ package com.cx.api.jdk.comparator;
 import com.cx.bean.Dog;
 import com.cx.bean.User;
 import com.google.common.collect.Lists;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Object 提供了只有一个参数的 compareTo 方法
@@ -42,6 +44,16 @@ public class ComparatorTest {
         Arrays.stream(users).forEach(System.out::println);
         Arrays.sort(users, Comparator.reverseOrder());
         Arrays.stream(users).forEach(System.out::println);
+    }
+
+    @Test
+    public void testSortByStrLen(){
+        String[] strs = new String[] {"aa", "bbb", "cccccc", "dddd"};
+        // Arrays.sort 会打乱原有数组内部排序
+//        Arrays.sort(strs, Comparator.comparingInt(String::length).reversed());
+        String maxLenStr= Arrays.stream(strs).sorted(Comparator.comparingInt(String::length).reversed()).findFirst().orElse("");
+        System.out.println(Arrays.toString(strs));
+        System.out.println(maxLenStr);
     }
 
     @Test

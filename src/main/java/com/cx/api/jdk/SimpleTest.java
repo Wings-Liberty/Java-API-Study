@@ -1,22 +1,18 @@
 package com.cx.api.jdk;
 
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.Arrays;
 
 public class SimpleTest {
 
     @Test
     public void test(){
-        Map<Integer, String> map = Maps.newHashMap();
-        map.put(1, "123");
-        System.out.println(map.get(1));
-        System.out.println(map.get(2));
-        System.out.println(map.getOrDefault(3, ""));
+        String[] strs = {"111", "222"};
+        Logger logger = LoggerFactory.getLogger(SimpleTest.class);
+        logger.info(Arrays.toString(strs));
     }
 
 }

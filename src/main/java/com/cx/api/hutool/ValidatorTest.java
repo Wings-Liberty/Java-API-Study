@@ -1,6 +1,7 @@
 package com.cx.api.hutool;
 
 import cn.hutool.core.lang.Validator;
+import cn.hutool.core.net.Ipv4Util;
 import org.junit.jupiter.api.Test;
 
 public class ValidatorTest {
@@ -14,5 +15,6 @@ public class ValidatorTest {
     public void testNumber() {
         System.out.println(Validator.isNumber("9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"));
     }
+
 
 }
