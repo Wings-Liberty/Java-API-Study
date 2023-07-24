@@ -25,4 +25,10 @@ public class RegexTest {
         System.out.println(ReUtil.get("branch_\\w", str, 0));
     }
 
+    @Test
+    public void testIsMatch(){
+        String ip = "";
+        System.out.println(ReUtil.isMatch(PatternPool.IPV4 + "(\\/([0-9]$|[0-2][0-9]|3[0-2]))?", ip));
+    }
+
 }

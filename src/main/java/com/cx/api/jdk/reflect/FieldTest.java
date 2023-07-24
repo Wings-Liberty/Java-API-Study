@@ -1,6 +1,6 @@
 package com.cx.api.jdk.reflect;
 
-import com.cx.bean.User;
+import com.cx.helper.bean.User;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

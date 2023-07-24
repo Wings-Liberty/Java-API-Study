@@ -1,6 +1,6 @@
 package com.cx.api.jdk.stream;
 
-import com.cx.bean.Dog;
+import com.cx.helper.bean.Dog;
 import com.google.common.collect.Lists;
 import org.junit.jupiter.api.Test;
 

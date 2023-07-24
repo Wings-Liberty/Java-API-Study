@@ -1,4 +1,4 @@
-package com.cx.bean;
+package com.cx.helper.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

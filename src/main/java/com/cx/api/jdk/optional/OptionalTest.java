@@ -1,7 +1,7 @@
 package com.cx.api.jdk.optional;
 
-import com.cx.bean.Dog;
-import com.cx.bean.User;
+import com.cx.helper.bean.Dog;
+import com.cx.helper.bean.User;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;

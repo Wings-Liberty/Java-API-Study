@@ -1,5 +1,6 @@
 package com.cx.api.hutool;
 
+import cn.hutool.core.lang.Validator;
 import cn.hutool.core.net.Ipv4Util;
 import org.junit.jupiter.api.Test;
 
@@ -19,5 +20,11 @@ public class Ipv4UtilTest {
         System.out.println(ip);
     }
 
+    @Test
+    public void testIsIp(){
+        String ip = "172.16.23.68/24";
+
+        System.out.println(Validator.isIpv4(ip));
+    }
 
 }

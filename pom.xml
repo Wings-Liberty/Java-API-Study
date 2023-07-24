@@ -15,6 +15,12 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.18</version>
+        </dependency>
+
         <!-- 官方包 -->
         <!--        <dependency>-->
         <!--            <groupId>com.jcraft</groupId>-->

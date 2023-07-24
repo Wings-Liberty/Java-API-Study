@@ -1,8 +1,11 @@
 package com.cx.api.jdk.juc;
 
+import com.google.common.collect.Lists;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -149,5 +152,18 @@ public class CompletableFutureTest {
         merge.thenAccept(code -> System.out.println("完成了所有任务" + code));
 
         TimeUnit.SECONDS.sleep(2);
+    }
+
+    /**
+     * 两个返回 Long 的任务合并到没有返回值的 cf 里
+     */
+    @Test
+    public void testTwoReturnMergeVoid() throws ExecutionException, InterruptedException {
+        List<CompletableFuture<Integer>> cfList = Lists.newArrayList();
+        CompletableFuture<Integer> cf1 = CompletableFuture.supplyAsync(() -> 1);
+        cfList.add(cf1);
+        CompletableFuture<Integer> cf2 = CompletableFuture.supplyAsync(() -> 2);
+        cfList.add(cf2);
+        CompletableFuture.allOf(cfList.toArray(new CompletableFuture[0])).get();
     }
 }

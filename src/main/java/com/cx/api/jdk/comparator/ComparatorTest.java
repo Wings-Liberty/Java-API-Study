@@ -1,15 +1,13 @@
 package com.cx.api.jdk.comparator;
 
-import com.cx.bean.Dog;
-import com.cx.bean.User;
+import com.cx.helper.bean.Dog;
+import com.cx.helper.bean.User;
 import com.google.common.collect.Lists;
-import org.apache.commons.lang3.math.NumberUtils;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Object 提供了只有一个参数的 compareTo 方法

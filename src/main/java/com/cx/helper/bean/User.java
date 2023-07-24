@@ -1,4 +1,4 @@
-package com.cx.bean;
+package com.cx.helper.bean;
 
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
